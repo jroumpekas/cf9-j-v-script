@@ -1,0 +1,10 @@
+const player = {
+    id: 1,
+    firstname: "Luciano",
+    lastname: "Galleti",
+    nationality: "Argentinian"
+}
+
+console.log(player.firstname);
+
+player["firstname"] = "Luciano";
